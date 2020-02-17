@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <div class="header__logo">The best shop</div>
+        <form>
+            <input id="search" class="header__search" type="text" placeholder="Search">
+        </form>
+        <div class="basket">
+            <div>Basket<span id="count" class="basket__count">0</span></div>
+            <div class="basket__amount">amount: <span id="amount">0$</span></div>
+        </div>
+    </div>
+</header>
+<main class="products container">
+    <div class="products__header">
+        <h3>Electronics</h3>
+        <div>Sort by price: <a id="sort" href="#" class="products__sort">Asc</a></div>
+    </div>
+    <div id="products"></div>
+</main>
+<script src="./js/main.js"></script>
+</body>
+</html>
